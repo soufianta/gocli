@@ -35,5 +35,5 @@ jobs:
 
       - name: Run CLI with sample input
         run: |
-          echo "Generating password with 16 chars:"
-          ./app 16
+          echo "Generating password (default 8 charactrs):"
+          ./app
