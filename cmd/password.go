@@ -30,7 +30,7 @@ var passwordCmd = &cobra.Command{
 	Short: "generates a random password",
 	Long:  `generates a random password with a specific length if needed`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println(generatePassword(8))
+		fmt.Println(generatePassword(20))
 	},
 }
 
